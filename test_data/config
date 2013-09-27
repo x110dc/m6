@@ -1,0 +1,29 @@
+[main]
+    log_dir = .
+[harvest]
+    server = https://example.harvestapp.com
+    default_project = "Server Department Work"
+    username = first.last@example.com
+    password = foobarbaz
+    app_dir = ~/Library/Application Support/M6
+[omnifocus]
+    zip_dir = ~/Library/Application Support/OmniFocus/OmniFocus.ofocus
+    app_dir = ~/Library/Application Support/M6
+    default_duration = 10 # in minutes
+    # I know this is ugly, but I'm lazy:
+    days_ago = 5000
+[git]
+    # where to look for repos, searched recursively, a list, much contain a
+    # comma:
+    repo_dirs = test_data,
+    # the author to search for in commits:
+    author = first.last
+    duration = 600  # duration to use for each commit, in seconds
+[jira]
+    server = jira.r.example.com
+    username = first.last
+    password = foobarbaz
+    num_items = 100
+[subversion]
+[stash]
+[cube]

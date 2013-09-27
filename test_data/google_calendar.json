@@ -1,0 +1,2005 @@
+{
+  "kind": "calendar#events", 
+  "defaultReminders": [
+    {
+      "minutes": 10, 
+      "method": "popup"
+    }
+  ], 
+  "items": [
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-26T15:00:00-05:00"
+      }, 
+      "created": "2013-03-25T16:52:07.000Z", 
+      "iCalUID": "m9l2lnsc2eb9e2q0tf8an27878@google.com", 
+      "reminders": {
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bTlsMmxuc2MyZWI5ZTJxMHRmOGFuMjc4NzhfMjAxMzA0MjZUMTgwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-04-25T17:50:26.268Z", 
+      "summary": "coding for Foobar", 
+      "start": {
+        "dateTime": "2013-04-26T13:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY2OTEyMjI2MjY4MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-04-26T13:00:00-05:00"
+      }, 
+      "recurringEventId": "m9l2lnsc2eb9e2q0tf8an27878", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "m9l2lnsc2eb9e2q0tf8an27878_20130426T180000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-26T18:20:00-05:00"
+      }, 
+      "created": "2013-03-25T16:50:34.000Z", 
+      "iCalUID": "8gave8tj7c945mp9er1c77c620@google.com", 
+      "reminders": {
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=OGdhdmU4dGo3Yzk0NW1wOWVyMWM3N2M2MjBfMjAxMzA0MjZUMjEwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-04-30T23:06:01.970Z", 
+      "summary": "coding for Foobar", 
+      "start": {
+        "dateTime": "2013-04-26T16:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3MzYzMTYxOTcwMDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-04-26T16:00:00-05:00"
+      }, 
+      "recurringEventId": "8gave8tj7c945mp9er1c77c620", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "8gave8tj7c945mp9er1c77c620_20130426T210000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "date": "2013-04-28"
+      }, 
+      "created": "2013-03-29T03:38:27.000Z", 
+      "iCalUID": "k2nrjosl0addvbsjotgd3pmsro@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=azJucmpvc2wwYWRkdmJzam90Z2QzcG1zcm8gZGFuaWVsLmNyYWlnbWlsZUBtdXR1YWxtb2JpbGUuY29t", 
+      "sequence": 0, 
+      "updated": "2013-04-26T21:50:16.810Z", 
+      "summary": "FOOBAR anniversary party", 
+      "start": {
+        "date": "2013-04-27"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3MDEzMDE2ODEwMDAw\"", 
+      "transparency": "transparent", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "k2nrjosl0addvbsjotgd3pmsro"
+    }, 
+    {
+      "status": "confirmed", 
+      "attendeesOmitted": true, 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-27T16:00:00-05:00"
+      }, 
+      "description": "Come join us for the company picnic. We'll have food from Hat Creek Burger Co, activities for the kiddos, and other fun things for the rest of us. We'll release a map of the exact location within Zilker in the next few days!", 
+      "created": "2013-04-16T19:49:23.000Z", 
+      "iCalUID": "jqf1448m9445eb4ufgpnkk01uk@google.com", 
+      "locked": true, 
+      "htmlLink": "https://plus.google.com/events/cjqf1448m9445eb4ufgpnkk01uk", 
+      "sequence": 0, 
+      "updated": "2013-04-22T21:38:54.937Z", 
+      "visibility": "private", 
+      "summary": "4th Anniversary Company Picnic", 
+      "start": {
+        "dateTime": "2013-04-27T12:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY2NjY2NzM0OTM3MDAw\"", 
+      "location": "Zilker Park, Barton Springs Road, Austin, TX", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "attendees": [
+        {
+          "organizer": true, 
+          "id": "106379066396443628379", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "self": true, 
+          "id": "113661856195681306883", 
+          "responseStatus": "tentative"
+        }
+      ], 
+      "organizer": {
+        "id": "106379066396443628379"
+      }, 
+      "creator": {
+        "id": "106379066396443628379"
+      }, 
+      "id": "jqf1448m9445eb4ufgpnkk01uk"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-28T14:00:00-05:00"
+      }, 
+      "description": "We'll do some hackathonage on our new special projects.\nhttps://confluence.r.example.com/display/FOOBAR/project+ideas", 
+      "created": "2013-03-30T18:10:53.000Z", 
+      "iCalUID": "d5bb8ohg0cftjinbqh13rm68io@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZDViYjhvaGcwY2Z0amluYnFoMTNybTY4aW9fMjAxMzA0MjhUMTYwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 1, 
+      "updated": "2013-04-14T16:13:06.611Z", 
+      "summary": "Hackathon", 
+      "start": {
+        "dateTime": "2013-04-28T11:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY1OTU1OTg2NjExMDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-04-28T11:00:00-05:00"
+      }, 
+      "location": "A14-02-(16ppl)", 
+      "recurringEventId": "d5bb8ohg0cftjinbqh13rm68io", 
+      "attendees": [
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "tentative"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "tentative"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_3134323235303132363931@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "d5bb8ohg0cftjinbqh13rm68io_20130428T160000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "timeZone": "Etc/GMT", 
+        "dateTime": "2013-04-29T10:55:00-05:00"
+      }, 
+      "description": "Each person producing on the project should present:\n- What did you complete yesterday.\n- What will you complete today.\n- What is blocking you from completing you work\n\n------------------------------------------------------- \nTo start or join the online meeting \n------------------------------------------------------- \nGo to https://example.webex.com/example/j.php?ED=197707587&UID=496036022&RT=MiM3 \n\n------------------------------------------------------- \nAudio conference information \n------------------------------------------------------- \nTo receive a call back, provide your phone number when you join the meeting, or call the number below and enter the access code. \nCall-in toll-free number (US/Canada): 1-877-668-4493 \nCall-in toll number (US/Canada): 1-650-479-3208 \nGlobal call-in numbers: https://example.webex.com/example/globalcallin.php?serviceType=MC&ED=197707587&tollFree=1 \nToll-free dialing restrictions: http://www.webex.com/pdf/tollfree_restrictions.pdf \n\nAccess code:800 901 716\n\n\n-------------------------------------------------------------------------------------------------------------- \nIf you need to be host use the code below\nHost Key: 615143 (use this to reclaim host privileges) \n------------------------------------------------------------------------------------", 
+      "created": "2013-04-25T18:44:00.000Z", 
+      "iCalUID": "lmjc43b9i58g50o197fahrnrks@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bG1qYzQzYjlpNThnNTBvMTk3ZmFocm5ya3NfMjAxMzA0MjlUMTUzMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-05-01T15:54:59.765Z", 
+      "summary": "Daily Stand-up", 
+      "start": {
+        "timeZone": "Etc/GMT", 
+        "dateTime": "2013-04-29T10:30:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NDIzNjk5NzY1MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "Etc/GMT", 
+        "dateTime": "2013-04-29T10:30:00-05:00"
+      }, 
+      "location": "A14-15-(6ppl)", 
+      "recurringEventId": "lmjc43b9i58g50o197fahrnrks", 
+      "attendees": [
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "lmjc43b9i58g50o197fahrnrks_20130429T153000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-29T11:30:00-05:00"
+      }, 
+      "description": "Sync up on status", 
+      "created": "2013-04-25T18:42:47.000Z", 
+      "iCalUID": "FB0E6BFE-7673-4C67-8DD3-6072EF9D8BC1", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=XzhwMTMwaDltODkzNGFiOW42b3JqNmI5azhjcjNlYjlvOGgyMzZiOW02MHJqNGhhNjc1MjNnZ2kzNjQgZGFuaWVsLmNyYWlnbWlsZUBtdXR1YWxtb2JpbGUuY29t", 
+      "sequence": 3, 
+      "updated": "2013-04-25T19:04:07.838Z", 
+      "summary": "Server team sync up", 
+      "start": {
+        "dateTime": "2013-04-29T11:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY2OTE2NjQ3ODM4MDAw\"", 
+      "location": "A14-14-(6ppl)", 
+      "attendees": [
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_2d34303133323139342d373533@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "_8p130h9m8934ab9n6orj6b9k8cr3eb9o8h236b9m60rj4ha67523ggi364"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-29T11:30:00-05:00"
+      }, 
+      "description": "Status check \n* progress to plan. \n* Discuss design \n* any open items, road blocks.", 
+      "created": "2013-04-09T14:27:24.000Z", 
+      "iCalUID": "npb1umjvv3tqktumu1nrp6tk1k@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bnBiMXVtanZ2M3Rxa3R1bXUxbnJwNnRrMWtfMjAxMzA0MjlUMTYwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 3, 
+      "updated": "2013-05-01T13:31:11.254Z", 
+      "summary": "Server team status check", 
+      "start": {
+        "dateTime": "2013-04-29T11:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NDE1MDcxMjU0MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-04-29T11:00:00-05:00"
+      }, 
+      "location": "A14-15-(6ppl)", 
+      "recurringEventId": "npb1umjvv3tqktumu1nrp6tk1k", 
+      "attendees": [
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "npb1umjvv3tqktumu1nrp6tk1k_20130429T160000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-29T12:50:00-05:00"
+      }, 
+      "created": "2013-04-12T18:15:59.000Z", 
+      "iCalUID": "kpojv8tm1dg9tb4elouam6s354@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=a3BvanY4dG0xZGc5dGI0ZWxvdWFtNnMzNTRfMjAxMzA0MjlUMTcwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-04-29T16:54:12.641Z", 
+      "summary": "Peached Tortilla!", 
+      "start": {
+        "dateTime": "2013-04-29T12:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3MjU0NDUyNjQxMDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-04-29T12:00:00-05:00"
+      }, 
+      "recurringEventId": "kpojv8tm1dg9tb4elouam6s354", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "kpojv8tm1dg9tb4elouam6s354_20130429T170000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-29T17:30:00-05:00"
+      }, 
+      "description": "Hopefully this should only take 2 hours, but scheduling more time just in case.", 
+      "created": "2013-04-25T18:16:02.000Z", 
+      "iCalUID": "rmnoh38ihp44rvjlf7f6mje6jg@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=cm1ub2gzOGlocDQ0cnZqbGY3ZjZtamU2amcgZGFuaWVsLmNyYWlnbWlsZUBtdXR1YWxtb2JpbGUuY29t", 
+      "sequence": 2, 
+      "updated": "2013-04-29T20:37:55.941Z", 
+      "summary": "Sprint planning for Hardening", 
+      "start": {
+        "dateTime": "2013-04-29T13:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3MjY3ODc1OTQxMDAw\"", 
+      "location": "A14-02-(16ppl), A14-15-(6ppl)", 
+      "attendees": [
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_3134323235303132363931@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "rmnoh38ihp44rvjlf7f6mje6jg"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-30T11:00:00-05:00"
+      }, 
+      "description": "Agenda:\n- To log time against every open jira ticket.", 
+      "created": "2013-04-29T22:25:18.000Z", 
+      "iCalUID": "67odfa62cnr32o2tjedldg874o@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=NjdvZGZhNjJjbnIzMm8ydGplZGxkZzg3NG8gZGFuaWVsLmNyYWlnbWlsZUBtdXR1YWxtb2JpbGUuY29t", 
+      "sequence": 0, 
+      "updated": "2013-04-29T23:46:43.686Z", 
+      "summary": "Server sprint planning - to log time to fix bugs", 
+      "start": {
+        "dateTime": "2013-04-30T10:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3Mjc5MjAzNjg2MDAw\"", 
+      "location": "A14-10-(8ppl)", 
+      "attendees": [
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_2d31303836343833323037@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "67odfa62cnr32o2tjedldg874o"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-30T12:50:00-05:00"
+      }, 
+      "created": "2013-04-30T15:10:12.000Z", 
+      "iCalUID": "mh1t7cuvvu64l1sbkanqhfuhto@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bWgxdDdjdXZ2dTY0bDFzYmthbnFoZnVodG8gZGFuaWVsLmNyYWlnbWlsZUBtdXR1YWxtb2JpbGUuY29t", 
+      "sequence": 0, 
+      "updated": "2013-04-30T20:28:00.766Z", 
+      "summary": "Server team fubar meeting", 
+      "start": {
+        "dateTime": "2013-04-30T11:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3MzUzNjgwNzY2MDAw\"", 
+      "location": "A14-10-(8ppl)", 
+      "attendees": [
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_2d31303836343833323037@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "mh1t7cuvvu64l1sbkanqhfuhto"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-30T13:00:00-05:00"
+      }, 
+      "description": "Status check \n* progress to plan. \n* Discuss design \n* any open items, road blocks.", 
+      "created": "2013-04-09T14:27:24.000Z", 
+      "iCalUID": "npb1umjvv3tqktumu1nrp6tk1k@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bnBiMXVtanZ2M3Rxa3R1bXUxbnJwNnRrMWtfMjAxMzA0MzBUMTYwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 5, 
+      "updated": "2013-05-02T02:30:47.311Z", 
+      "summary": "Server team status check", 
+      "start": {
+        "dateTime": "2013-04-30T11:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NDYxODQ3MzExMDAw\"", 
+      "originalStartTime": {
+        "dateTime": "2013-04-30T11:00:00-05:00"
+      }, 
+      "location": "A14-15-(6ppl)", 
+      "recurringEventId": "npb1umjvv3tqktumu1nrp6tk1k", 
+      "attendees": [
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "npb1umjvv3tqktumu1nrp6tk1k_20130430T160000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-30T13:50:00-05:00"
+      }, 
+      "created": "2013-04-30T16:28:44.000Z", 
+      "iCalUID": "s1j8gkcj69p5cjtisqnbvt3g0o@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=czFqOGdrY2o2OXA1Y2p0aXNxbmJ2dDNnMG8gZGFuaWVsLmNyYWlnbWlsZUBtdXR1YWxtb2JpbGUuY29t", 
+      "sequence": 0, 
+      "updated": "2013-04-30T17:21:14.595Z", 
+      "summary": "Bug discussion/ deployment/ travel", 
+      "start": {
+        "dateTime": "2013-04-30T13:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3MzQyNDc0NTk1MDAw\"", 
+      "location": "A14-01-(10ppl)", 
+      "attendees": [
+        {
+          "comment": "foo #bar baz", 
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_2d34393135323630372d353937@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "comment": "I have another meeting at 1 but will join the meeting once my 1 pm is over", 
+          "email": "first.last@example.com", 
+          "responseStatus": "tentative"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "s1j8gkcj69p5cjtisqnbvt3g0o"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-04-30T18:20:00-05:00"
+      }, 
+      "created": "2013-03-25T16:50:34.000Z", 
+      "iCalUID": "8gave8tj7c945mp9er1c77c620@google.com", 
+      "reminders": {
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=OGdhdmU4dGo3Yzk0NW1wOWVyMWM3N2M2MjBfMjAxMzA0MzBUMjEwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-04-30T23:06:01.970Z", 
+      "summary": "coding for Foobar", 
+      "start": {
+        "dateTime": "2013-04-30T16:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3MzYzMTYxOTcwMDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-04-30T16:00:00-05:00"
+      }, 
+      "recurringEventId": "8gave8tj7c945mp9er1c77c620", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "8gave8tj7c945mp9er1c77c620_20130430T210000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-01T10:55:00-05:00"
+      }, 
+      "description": "Each person producing on the project should present:\n- What did you complete yesterday.\n- What will you complete today.\n- What is blocking you from completing you work\n\n------------------------------------------------------- \nTo start or join the online meeting \n------------------------------------------------------- \nGo to https://example.webex.com/example/j.php?ED=197707587&UID=496036022&RT=MiM3 \n\n------------------------------------------------------- \nAudio conference information \n------------------------------------------------------- \nTo receive a call back, provide your phone number when you join the meeting, or call the number below and enter the access code. \nCall-in toll-free number (US/Canada): 1-877-668-4493 \nCall-in toll number (US/Canada): 1-650-479-3208 \nGlobal call-in numbers: https://example.webex.com/example/globalcallin.php?serviceType=MC&ED=197707587&tollFree=1 \nToll-free dialing restrictions: http://www.webex.com/pdf/tollfree_restrictions.pdf \n\nAccess code:800 901 716\n\n\n-------------------------------------------------------------------------------------------------------------- \nIf you need to be host use the code below\nHost Key: 615143 (use this to reclaim host privileges) \n------------------------------------------------------------------------------------", 
+      "created": "2013-04-25T18:44:00.000Z", 
+      "iCalUID": "lmjc43b9i58g50o197fahrnrks@google.com", 
+      "reminders": {
+        "overrides": [
+          {
+            "minutes": 10, 
+            "method": "popup"
+          }
+        ], 
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bG1qYzQzYjlpNThnNTBvMTk3ZmFocm5ya3NfMjAxMzA1MDFUMTUzMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-05-01T15:31:37.375Z", 
+      "summary": "Daily Stand-up", 
+      "start": {
+        "dateTime": "2013-05-01T10:30:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NDIyMjk3Mzc1MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-01T10:30:00-05:00"
+      }, 
+      "location": "A14-15-(6ppl)", 
+      "recurringEventId": "lmjc43b9i58g50o197fahrnrks", 
+      "attendees": [
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "lmjc43b9i58g50o197fahrnrks_20130501T153000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-01T11:30:00-05:00"
+      }, 
+      "description": "Status check \n* progress to plan. \n* Discuss design \n* any open items, road blocks.", 
+      "created": "2013-04-09T14:27:24.000Z", 
+      "iCalUID": "npb1umjvv3tqktumu1nrp6tk1k@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bnBiMXVtanZ2M3Rxa3R1bXUxbnJwNnRrMWtfMjAxMzA1MDFUMTYwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 3, 
+      "updated": "2013-05-01T13:31:11.254Z", 
+      "summary": "Server team status check", 
+      "start": {
+        "dateTime": "2013-05-01T11:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NDE1MDcxMjU0MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-01T11:00:00-05:00"
+      }, 
+      "location": "A14-15-(6ppl)", 
+      "recurringEventId": "npb1umjvv3tqktumu1nrp6tk1k", 
+      "attendees": [
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "npb1umjvv3tqktumu1nrp6tk1k_20130501T160000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-01T15:00:00-05:00"
+      }, 
+      "created": "2013-03-25T16:52:07.000Z", 
+      "iCalUID": "m9l2lnsc2eb9e2q0tf8an27878@google.com", 
+      "reminders": {
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bTlsMmxuc2MyZWI5ZTJxMHRmOGFuMjc4NzhfMjAxMzA1MDFUMTgwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-04-25T17:50:26.268Z", 
+      "summary": "coding for Foobar", 
+      "start": {
+        "dateTime": "2013-05-01T13:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY2OTEyMjI2MjY4MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-01T13:00:00-05:00"
+      }, 
+      "recurringEventId": "m9l2lnsc2eb9e2q0tf8an27878", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "m9l2lnsc2eb9e2q0tf8an27878_20130501T180000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-01T18:20:00-05:00"
+      }, 
+      "created": "2013-03-25T16:50:34.000Z", 
+      "iCalUID": "8gave8tj7c945mp9er1c77c620@google.com", 
+      "reminders": {
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=OGdhdmU4dGo3Yzk0NW1wOWVyMWM3N2M2MjBfMjAxMzA1MDFUMjEwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-04-30T23:06:01.970Z", 
+      "summary": "coding for Foobar", 
+      "start": {
+        "dateTime": "2013-05-01T16:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3MzYzMTYxOTcwMDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-01T16:00:00-05:00"
+      }, 
+      "recurringEventId": "8gave8tj7c945mp9er1c77c620", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "8gave8tj7c945mp9er1c77c620_20130501T210000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-02T10:55:00-05:00"
+      }, 
+      "description": "Each person producing on the project should present:\n- What did you complete yesterday.\n- What will you complete today.\n- What is blocking you from completing you work\n\n------------------------------------------------------- \nTo start or join the online meeting \n------------------------------------------------------- \nGo to https://example.webex.com/example/j.php?ED=197707587&UID=496036022&RT=MiM3 \n\n------------------------------------------------------- \nAudio conference information \n------------------------------------------------------- \nTo receive a call back, provide your phone number when you join the meeting, or call the number below and enter the access code. \nCall-in toll-free number (US/Canada): 1-877-668-4493 \nCall-in toll number (US/Canada): 1-650-479-3208 \nGlobal call-in numbers: https://example.webex.com/example/globalcallin.php?serviceType=MC&ED=197707587&tollFree=1 \nToll-free dialing restrictions: http://www.webex.com/pdf/tollfree_restrictions.pdf \n\nAccess code:800 901 716\n\n\n-------------------------------------------------------------------------------------------------------------- \nIf you need to be host use the code below\nHost Key: 615143 (use this to reclaim host privileges) \n------------------------------------------------------------------------------------", 
+      "created": "2013-04-25T18:44:00.000Z", 
+      "iCalUID": "lmjc43b9i58g50o197fahrnrks@google.com", 
+      "reminders": {
+        "overrides": [
+          {
+            "minutes": 10, 
+            "method": "popup"
+          }
+        ], 
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bG1qYzQzYjlpNThnNTBvMTk3ZmFocm5ya3NfMjAxMzA1MDJUMTUzMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-05-01T15:31:37.375Z", 
+      "summary": "Daily Stand-up", 
+      "start": {
+        "dateTime": "2013-05-02T10:30:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NDIyMjk3Mzc1MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-02T10:30:00-05:00"
+      }, 
+      "location": "A14-15-(6ppl)", 
+      "recurringEventId": "lmjc43b9i58g50o197fahrnrks", 
+      "attendees": [
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "lmjc43b9i58g50o197fahrnrks_20130502T153000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-02T11:30:00-05:00"
+      }, 
+      "description": "Today's Agenda:\n1. session time out jira ticket estimation\n2. Check the SW staging on status of celery tasks for import of asset_description\n3. SW data import.", 
+      "created": "2013-04-09T14:27:24.000Z", 
+      "iCalUID": "npb1umjvv3tqktumu1nrp6tk1k@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bnBiMXVtanZ2M3Rxa3R1bXUxbnJwNnRrMWtfMjAxMzA1MDJUMTYwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 5, 
+      "updated": "2013-05-02T16:01:51.300Z", 
+      "summary": "Server team status check", 
+      "start": {
+        "dateTime": "2013-05-02T11:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NTEwNTExMzAwMDAw\"", 
+      "originalStartTime": {
+        "dateTime": "2013-05-02T11:00:00-05:00"
+      }, 
+      "location": "A14-15-(6ppl)", 
+      "recurringEventId": "npb1umjvv3tqktumu1nrp6tk1k", 
+      "attendees": [
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "npb1umjvv3tqktumu1nrp6tk1k_20130502T160000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-02T13:00:00-05:00"
+      }, 
+      "description": "Hi, everyone.\n\nLet's talk about database migrations.  We all know they hurt, so let's help save each other some pain.\n\nHere are some ideas for discussion, but of course we can talk about whatever aspects of the problem are most helpful for the group:\n\n* South and its alternatives\n* Tips and tricks learned in the trenches\n* The most difficult challenges/pain points and how they have been dealt with in the past\n* How and when to optimize Django models/code for ease of migration\n* Best/worst practices in writing migrations\n\nThanks, and hope to see you there!", 
+      "created": "2012-08-29T15:59:48.000Z", 
+      "iCalUID": "j1c25sj7dp06m77ovcj5q3un80@google.com", 
+      "reminders": {
+        "overrides": [
+          {
+            "minutes": 10, 
+            "method": "popup"
+          }
+        ], 
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=ajFjMjVzajdkcDA2bTc3b3ZjajVxM3VuODBfMjAxMzA1MDJUMTcwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 2, 
+      "updated": "2013-05-02T21:19:31.884Z", 
+      "summary": "Thursday Lunch with the Pros", 
+      "start": {
+        "dateTime": "2013-05-02T12:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NTI5NTcxODg0MDAw\"", 
+      "originalStartTime": {
+        "dateTime": "2013-05-02T12:00:00-05:00"
+      }, 
+      "location": "A14-21-(10ppl)", 
+      "recurringEventId": "j1c25sj7dp06m77ovcj5q3un80", 
+      "attendees": [
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "tentative"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "tentative"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "tentative"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_2d3438333832352d393734@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "j1c25sj7dp06m77ovcj5q3un80_20130502T170000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-02T15:00:00-05:00"
+      }, 
+      "created": "2013-03-25T16:52:07.000Z", 
+      "iCalUID": "m9l2lnsc2eb9e2q0tf8an27878@google.com", 
+      "reminders": {
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bTlsMmxuc2MyZWI5ZTJxMHRmOGFuMjc4NzhfMjAxMzA1MDJUMTgwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-04-25T17:50:26.268Z", 
+      "summary": "coding for Foobar", 
+      "start": {
+        "dateTime": "2013-05-02T13:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY2OTEyMjI2MjY4MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-02T13:00:00-05:00"
+      }, 
+      "recurringEventId": "m9l2lnsc2eb9e2q0tf8an27878", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "m9l2lnsc2eb9e2q0tf8an27878_20130502T180000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-02T18:20:00-05:00"
+      }, 
+      "created": "2013-03-25T16:50:34.000Z", 
+      "iCalUID": "8gave8tj7c945mp9er1c77c620@google.com", 
+      "reminders": {
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=OGdhdmU4dGo3Yzk0NW1wOWVyMWM3N2M2MjBfMjAxMzA1MDJUMjEwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-04-30T23:06:01.970Z", 
+      "summary": "coding for Foobar", 
+      "start": {
+        "dateTime": "2013-05-02T16:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3MzYzMTYxOTcwMDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-02T16:00:00-05:00"
+      }, 
+      "recurringEventId": "8gave8tj7c945mp9er1c77c620", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "8gave8tj7c945mp9er1c77c620_20130502T210000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-03T10:55:00-05:00"
+      }, 
+      "description": "Each person producing on the project should present:\n- What did you complete yesterday.\n- What will you complete today.\n- What is blocking you from completing you work\n\n------------------------------------------------------- \nTo start or join the online meeting \n------------------------------------------------------- \nGo to https://example.webex.com/example/j.php?ED=197707587&UID=496036022&RT=MiM3 \n\n------------------------------------------------------- \nAudio conference information \n------------------------------------------------------- \nTo receive a call back, provide your phone number when you join the meeting, or call the number below and enter the access code. \nCall-in toll-free number (US/Canada): 1-877-668-4493 \nCall-in toll number (US/Canada): 1-650-479-3208 \nGlobal call-in numbers: https://example.webex.com/example/globalcallin.php?serviceType=MC&ED=197707587&tollFree=1 \nToll-free dialing restrictions: http://www.webex.com/pdf/tollfree_restrictions.pdf \n\nAccess code:800 901 716\n\n\n-------------------------------------------------------------------------------------------------------------- \nIf you need to be host use the code below\nHost Key: 615143 (use this to reclaim host privileges) \n------------------------------------------------------------------------------------", 
+      "created": "2013-04-25T18:44:00.000Z", 
+      "iCalUID": "lmjc43b9i58g50o197fahrnrks@google.com", 
+      "reminders": {
+        "overrides": [
+          {
+            "minutes": 10, 
+            "method": "popup"
+          }
+        ], 
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bG1qYzQzYjlpNThnNTBvMTk3ZmFocm5ya3NfMjAxMzA1MDNUMTUzMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-05-01T15:31:37.375Z", 
+      "summary": "Daily Stand-up", 
+      "start": {
+        "dateTime": "2013-05-03T10:30:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NDIyMjk3Mzc1MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-03T10:30:00-05:00"
+      }, 
+      "location": "A14-15-(6ppl)", 
+      "recurringEventId": "lmjc43b9i58g50o197fahrnrks", 
+      "attendees": [
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "lmjc43b9i58g50o197fahrnrks_20130503T153000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-03T11:30:00-05:00"
+      }, 
+      "description": "Status check \n* progress to plan. \n* Discuss design \n* any open items, road blocks.", 
+      "created": "2013-04-09T14:27:24.000Z", 
+      "iCalUID": "npb1umjvv3tqktumu1nrp6tk1k@google.com", 
+      "reminders": {
+        "useDefault": true
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bnBiMXVtanZ2M3Rxa3R1bXUxbnJwNnRrMWtfMjAxMzA1MDNUMTYwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 3, 
+      "updated": "2013-05-01T13:31:11.254Z", 
+      "summary": "Server team status check", 
+      "start": {
+        "dateTime": "2013-05-03T11:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY3NDE1MDcxMjU0MDAw\"", 
+      "originalStartTime": {
+        "dateTime": "2013-05-03T11:00:00-05:00"
+      }, 
+      "location": "A14-15-(6ppl)", 
+      "recurringEventId": "npb1umjvv3tqktumu1nrp6tk1k", 
+      "attendees": [
+        {
+          "organizer": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "resource": true, 
+          "email": "example.com_35343432373931382d333637@resource.calendar.google.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "optional": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "email": "first.last@example.com"
+      }, 
+      "id": "npb1umjvv3tqktumu1nrp6tk1k_20130503T160000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-03T13:30:00-05:00"
+      }, 
+      "description": "Take a break, join the epic lunch. Come to find the place! Free feel to invite others. ", 
+      "created": "2012-05-18T03:53:13.000Z", 
+      "iCalUID": "9ps2ubpojos25te655b8qo2ms0@google.com", 
+      "reminders": {
+        "overrides": [
+          {
+            "minutes": 10, 
+            "method": "popup"
+          }
+        ], 
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=OXBzMnVicG9qb3MyNXRlNjU1YjhxbzJtczBfMjAxMzA1MDNUMTcwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 1, 
+      "updated": "2013-01-11T06:36:52.332Z", 
+      "summary": "Epic Lunch", 
+      "start": {
+        "dateTime": "2013-05-03T12:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzU3ODg2MjEyMzMyMDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-03T12:00:00-05:00"
+      }, 
+      "location": "Walk", 
+      "recurringEventId": "9ps2ubpojos25te655b8qo2ms0", 
+      "attendees": [
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "organizer": true, 
+          "email": "chung-first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "self": true, 
+          "email": "first.last@example.com", 
+          "responseStatus": "declined"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "needsAction"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }, 
+        {
+          "email": "first.last@example.com", 
+          "responseStatus": "accepted"
+        }
+      ], 
+      "organizer": {
+        "email": "chung-first.last@example.com"
+      }, 
+      "creator": {
+        "email": "chung-first.last@example.com"
+      }, 
+      "id": "9ps2ubpojos25te655b8qo2ms0_20130503T170000Z"
+    }, 
+    {
+      "status": "confirmed", 
+      "kind": "calendar#event", 
+      "end": {
+        "dateTime": "2013-05-03T15:00:00-05:00"
+      }, 
+      "created": "2013-03-25T16:52:07.000Z", 
+      "iCalUID": "m9l2lnsc2eb9e2q0tf8an27878@google.com", 
+      "reminders": {
+        "useDefault": false
+      }, 
+      "htmlLink": "https://www.google.com/calendar/event?eid=bTlsMmxuc2MyZWI5ZTJxMHRmOGFuMjc4NzhfMjAxMzA1MDNUMTgwMDAwWiBkYW5pZWwuY3JhaWdtaWxlQG11dHVhbG1vYmlsZS5jb20", 
+      "sequence": 0, 
+      "updated": "2013-04-25T17:50:26.268Z", 
+      "summary": "coding for Foobar", 
+      "start": {
+        "dateTime": "2013-05-03T13:00:00-05:00"
+      }, 
+      "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/Z2NhbDAwMDAxMzY2OTEyMjI2MjY4MDAw\"", 
+      "originalStartTime": {
+        "timeZone": "America/Chicago", 
+        "dateTime": "2013-05-03T13:00:00-05:00"
+      }, 
+      "recurringEventId": "m9l2lnsc2eb9e2q0tf8an27878", 
+      "organizer": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "creator": {
+        "self": true, 
+        "email": "first.last@example.com"
+      }, 
+      "id": "m9l2lnsc2eb9e2q0tf8an27878_20130503T180000Z"
+    }
+  ], 
+  "updated": "2013-05-02T21:19:31.000Z", 
+  "summary": "first.last@example.com", 
+  "etag": "\"78Bu1G8fWt0vPGZK2Ckfad3ZtNE/EiniVSgorBmqsm7LZql1igi0n4k\"", 
+  "timeZone": "America/Chicago", 
+  "accessRole": "owner"
+}
