@@ -1,0 +1,142 @@
+[
+  {
+    "duration": 2.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "coding for Fubar"
+  }, 
+  {
+    "duration": 2.3333333333333335, 
+    "calendar_name": "first.last@example.com", 
+    "title": "coding for Fubar"
+  }, 
+  {
+    "duration": 24.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "MM anniversary party"
+  }, 
+  {
+    "duration": 4.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "4th Anniversary Company Picnic"
+  }, 
+  {
+    "duration": 3.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Hackathon"
+  }, 
+  {
+    "duration": 0.4166666666666667, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Daily Stand-up"
+  }, 
+  {
+    "duration": 0.5, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Server team sync up"
+  }, 
+  {
+    "duration": 0.5, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Server team status check"
+  }, 
+  {
+    "duration": 0.8333333333333334, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Peached Tortilla!"
+  }, 
+  {
+    "duration": 4.5, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Sprint planning for Hardening"
+  }, 
+  {
+    "duration": 1.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Server sprint planning - to log time to fix bugs"
+  }, 
+  {
+    "duration": 1.8333333333333333, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Server team fubar meeting"
+  }, 
+  {
+    "duration": 2.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Server team status check"
+  }, 
+  {
+    "duration": 0.8333333333333334, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Bug discussion/ deployment/ travel"
+  }, 
+  {
+    "duration": 2.3333333333333335, 
+    "calendar_name": "first.last@example.com", 
+    "title": "coding for Fubar"
+  }, 
+  {
+    "duration": 0.4166666666666667, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Daily Stand-up"
+  }, 
+  {
+    "duration": 0.5, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Server team status check"
+  }, 
+  {
+    "duration": 2.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "coding for Fubar"
+  }, 
+  {
+    "duration": 2.3333333333333335, 
+    "calendar_name": "first.last@example.com", 
+    "title": "coding for Fubar"
+  }, 
+  {
+    "duration": 0.4166666666666667, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Daily Stand-up"
+  }, 
+  {
+    "duration": 0.5, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Server team status check"
+  }, 
+  {
+    "duration": 1.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Thursday Lunch with the Pros"
+  }, 
+  {
+    "duration": 2.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "coding for Fubar"
+  }, 
+  {
+    "duration": 2.3333333333333335, 
+    "calendar_name": "first.last@example.com", 
+    "title": "coding for Fubar"
+  }, 
+  {
+    "duration": 0.4166666666666667, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Daily Stand-up"
+  }, 
+  {
+    "duration": 0.5, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Server team status check"
+  }, 
+  {
+    "duration": 1.5, 
+    "calendar_name": "first.last@example.com", 
+    "title": "Epic Lunch"
+  }, 
+  {
+    "duration": 2.0, 
+    "calendar_name": "first.last@example.com", 
+    "title": "coding for Fubar"
+  }
+]
