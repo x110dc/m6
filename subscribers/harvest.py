@@ -151,7 +151,13 @@ class Harvest (object):
         if request['calendar_name'] != self.config['username']:
             return
 
-        request['notes'] = [request['title']]
+        if 'attendees' in request:
+            organizer = request.get('organizer')['displayName']
+            note = 'Meeting: {} (organized by {})'.format(request['title'],
+                                                          organizer)
+            request['notes'] = [note]
+        else:
+            request['notes'] = [request['title']]
 
         return request
 
