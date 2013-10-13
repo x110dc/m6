@@ -3,6 +3,7 @@
 import itertools
 import json
 import logging
+import logging.handlers
 import os
 import re
 import shelve
@@ -23,6 +24,15 @@ ns = {'of': 'http://www.omnigroup.com/namespace/OmniFocus/v1'}
 xpath_find = etree.XPath("//*[@id = $name]", namespaces=ns)
 
 ids = dict()
+
+config = ConfigObj(expanduser('~/.m6rc'))
+log_file = '{}/m6.log'.format(expanduser(config['main']['log_dir']))
+logger = logging.getLogger('m6')
+logger.setLevel(logging.DEBUG)
+
+handler = logging.handlers.RotatingFileHandler(log_file, maxBytes=500000,
+                                               backupCount=5)
+logger.addHandler(handler)
 
 
 def follow_idref(element):
@@ -135,7 +145,7 @@ class OmniFocus (object):
                     dateCompleted=completed,
                     estimatedMinutes=estimated_minutes,
                     disposition="completed")
-                logging.info(
+                logger.info(
                     "{} completed on {} in {} as part of project {}".format(
                         name.encode('utf-8'), completed, context, project))
             elif re.match('.*estimated-minutes$', child.tag):
@@ -191,10 +201,10 @@ class OmniFocus (object):
         for file in os.listdir(directory):
 #            if re.match('^0000', file):
 #               continue
-            logging.debug('processing file {}'.format(file))
+            logger.debug('processing file {}'.format(file))
             zip_file = zipfile.ZipFile(directory + "/" + file, 'r')
             for name in zip_file.namelist():
-                logging.debug('processing XML file {}'.format(name))
+                logger.debug('processing XML file {}'.format(name))
                 out = self.process_xml_file(zip_file, name)
                 results.append(out)
         # flatten list:
@@ -203,13 +213,7 @@ class OmniFocus (object):
 
 if __name__ == '__main__':
 
-    config = ConfigObj(expanduser('~/.m6rc'))
-    log_file = '{}/m6.log'.format(expanduser(config['main']['log_dir']))
-
     config = config['omnifocus']
-
-    logging.basicConfig(filename=log_file, level=logging.DEBUG)
-
     directory = os.path.expanduser(config['zip_dir'])
     filename = '{}/omnifocus-ids.shelve'.format(expanduser(config['app_dir']))
     saved_of_ids = shelve.open(filename, flag='c', writeback=True)
