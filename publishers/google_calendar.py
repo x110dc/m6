@@ -95,8 +95,10 @@ def filter_declined_entries(entries):
     for entry in entries:
         if entry.get('attendees'):
             me = [x for x in entry.get('attendees') if x.get('self') is True]
-            if len(me) != 1:
-                print 'length is not 1; something is weird'
+            if len(me) == 0:
+                # there's an odd case where I schedule something, but I'm
+                # not an attendee at all; ignore these:
+                continue
             me = me[0]
             if me['responseStatus'] == 'declined':
                 continue
