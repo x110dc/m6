@@ -6,6 +6,43 @@ from publishers import google_calendar
 import pytz
 
 
+class TestCalendarMore(unittest.TestCase):
+
+    def setUp(self):
+        self.calendar_item = {
+            u'status': u'confirmed',
+            u'kind': u'calendar#event',
+            u'end': {u'dateTime': u'2013-10-14T15:20:00-05:00'},
+            'end_date': '2013-10-14 15:20:00+00:00', u'created':
+            u'2013-10-14T16:07:23.000Z', u'iCalUID': u'abc@google.com',
+            u'reminders': {u'useDefault': True},
+            'start_date': '2013-10-14 14:00:00+00:00', u'htmlLink':
+            u'https://www.google.com/calendar/event?eid=ABC',
+            u'sequence': 0, u'updated': u'2013-10-14T16:07:24.200Z',
+            u'summary': u'Ethan - Pirate', 'seconds': 4800.0,
+            u'start': {u'dateTime': u'2013-10-14T14:00:00-05:00'},
+            u'etag':
+            u'"zDYNyduc5vEaXlXz7scQOpE_a8Y/MTM4MTc2Njg0NDIwMDAwMA"',
+            u'location':
+            u'example.123@resource.calendar.google.com',
+            u'attendees': [{u'resource': True, u'displayName':
+                            u'A14-07-(6ppl)', u'email':
+                            u'example.123@resource.calendar.google.com',
+                            u'responseStatus': u'accepted'},
+                           {u'displayName': u'Ethan Snowden',
+                            u'email': u'ethan.snowden@example.com',
+                            u'responseStatus': u'needsAction'}], u'organizer':
+            {u'self': True, u'displayName': u'Julian Assange',
+             u'email': u'julian.assange@example.com'},
+            u'creator': {u'self': True, u'displayName': u'Julian Assange',
+                         u'email': u'julian.assange@example.com'},
+                         u'id': u'abc'}
+
+    def test_not_attendee(self):
+        actual = google_calendar.filter_declined_entries([self.calendar_item])
+        self.assertEqual([], actual)
+
+
 class TestCalendar(unittest.TestCase):
 
     def setUp(self):
