@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+import os
 from os.path import expanduser
 import httplib2
 import json
@@ -32,12 +33,12 @@ def do_google_oauth_stuff():
 # the information it needs to authenticate. Note that it is called
 # the Web Server Flow, but it can also handle the flow for native
 # applications
-# The client_id and client_secret are copied from the API Access tab on
-# the Google APIs Console
+# The client_id and client_secret come from the GOOGLE_CLIENT_ID and
+# GOOGLE_CLIENT_SECRET environment variables
 
     FLOW = OAuth2WebServerFlow(
-        client_id='75216501644.apps.googleusercontent.com',
-        client_secret='REDACTED',
+        client_id=os.environ['GOOGLE_CLIENT_ID'],
+        client_secret=os.environ['GOOGLE_CLIENT_SECRET'],
         scope='https://www.googleapis.com/auth/calendar',
         user_agent='fetch-cal/0.0.1')
 
@@ -57,12 +58,6 @@ def do_google_oauth_stuff():
 # with our good Credentials.
     http = httplib2.Http()
     http = credentials.authorize(http)
-
-# Build a service object for interacting with the API. Visit
-# the Google APIs Console
-# to get a developerKey for your own application.
-    #service = build(serviceName='calendar', version='v3', http=http,
-    #                developerKey='REDACTED')
 
     return http
 
